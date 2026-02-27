@@ -75,7 +75,10 @@ button{
     display:flex;
     justify-content: center
 }
-@media (width:80vw) {
+@media (width:600px) {
+    .body {
+        width: 100vw;
+    }
   .container .name {
     font-size: 1.5rem;
     padding: 0.5rem;
