@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    width: 575px;
+    height: 550px;
+    background-color: #1B244A;
+    margin: 100px auto;
+    box-sizing: border-box;
+}
+.container .name{
+    font-size: 40px;
+    padding: 0 60px 10px 60px;
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    margin: 0;
+}
+.container .scoreBox{
+    display: flex;
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    font-size: 70px;
+    align-items: center;
+    justify-content: center;                       
+}
+.pointRow{
+    width: 155px;
+    display:flex;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 26px;
+    gap: 9px
+}
+button{
+    width:45px;
+    height: 45px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 5px;
+}
+#game-score1 ,  #game-score2{
+    width: 155px;
+    height: 100px;
+    text-align: center;
+    font-size: 70px;;
+    font-family: 'arial black', sans-serif;
+}
+#reset {
+    width: 100px;
+    background:#080001;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #whitesmoke;
+    font-size: 20px;
+}
+.resetbox {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display:flex;
+    justify-content: center
+}
