@@ -7,11 +7,14 @@ body {
 .container {
     position: relative;
     display: flex;
+    flex-direction: row;
     width: 700px;
     height: 550px;
     background-color: #1B244A;
-    margin: 100px auto;
+    margin: 20px auto;
     box-sizing: border-box;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 .container .name{
     font-size: 40px;
@@ -71,4 +74,21 @@ button{
     transform: translateX(-50%);
     display:flex;
     justify-content: center
+}
+@media (max-width: 600px) {
+  .container .name {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+
+  .scoreBox {
+    width: 120px;
+    height: 90px;
+    font-size: 2rem;
+  }
+
+  #game-score1, #game-score2 {
+    font-size: 2.5rem;
+    height: auto;
+  }
 }
