@@ -76,7 +76,7 @@ button{
     justify-content: center
 }
 @media (max-width:400px) {
-    .body {
+    body {
         width: 100vw;
     }
   .container .name {
