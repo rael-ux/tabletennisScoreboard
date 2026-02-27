@@ -8,8 +8,8 @@ body {
     position: relative;
     display: flex;
     flex-direction: row;
-    width: 700px;
-    height: 550px;
+    width: 480px;
+    height: 650px;
     background-color: #1B244A;
     margin: 20px auto;
     box-sizing: border-box;
@@ -38,20 +38,20 @@ body {
 .pointRow{
     width: 155px;
     display:flex;
-    font-size: 18px;
     align-items: center;
     justify-content: center;
     padding-top: 26px;
     gap: 9px
 }
 button{
-    width:45px;
-    height: 45px;
+    width:90px;
+    height: 70px;
     font-family: 'Cursed Timer ULiL', sans-serif;
     background-color: #1B244A;
     border: 2px solid #9AABD8;
     color: #9AABD8;
     border-radius: 5px;
+    font-size: 20px;
 }
 #game-score1 ,  #game-score2{
     width: 155px;
